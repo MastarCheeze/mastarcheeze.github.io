@@ -2,18 +2,91 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>MastarCheeze</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MastarCheeze</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>MastarCheeze</h1>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
+  <section id="header" class="bg-light p-5">
+    <div class="text-center">
+      <img src="assets/circlesmiley.png" class="img-fluid" alt="MastarCheeze's profile picture" width="300">
+      <h1 class="my-4">
+        <div class="display-3 text-primary fw-bold">MastarCheeze</div>
+        <div class="h4 text-muted">
+          Student, hobbyist programmer.</div>
+      </h1>
+    </div>
+  </section>
+
+  <section id="showcase" class="container-lg p-5">
+    <div class="text-center mb-4">
+      <h2>Project Showcase</h2>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://variety.com/wp-content/uploads/2021/07/Rick-Astley-Never-Gonna-Give-You-Up.png"
+            class="card-img-top" alt="Everything is Rickroll">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Everything is Rickroll</h5>
+            <p class="card-text">A Chrome extension that changes every YouTube video you open into a Rickroll.</p>
+            <p class="card-text mt-auto">
+              <small class="text-body-secondary">
+                <span class="badge text-bg-secondary">HTML</span>
+                <span class="badge text-bg-secondary">Javascript</span>
+              </small>
+            </p>
+          </div>
+          <a href="https://github.com/MastarCheeze/everything-is-rickroll" target="_blank" class="stretched-link"></a>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://img.itch.zone/aW1nLzMxOTkzOTcucG5n/315x250%23c/Jof9Ud.png" class="card-img-top"
+            alt="There is No Game">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">There is No Game</h5>
+            <p class="card-text">A platformer with a hidden twist.</p>
+            <p class="card-text mt-auto">
+              <small class="text-body-secondary">
+                <span class="badge text-bg-secondary">C#</span>
+                <span class="badge text-bg-secondary">Unity</span>
+              </small>
+            </p>
+          </div>
+          <a href="https://mastarcheeze.itch.io/there-is-no-game" target="_blank" class="stretched-link"></a>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://img.itch.zone/aW1nLzQ5OTU3MTgucG5n/315x250%23c/kvlX5h.png" class="card-img-top"
+            alt="Push Box">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Push Box</h5>
+            <p class="card-text">A puzzle game inspired by the classic Sokoban.</p>
+            <p class="card-text mt-auto">
+              <small class="text-body-secondary">
+                <span class="badge text-bg-secondary">Haxe</span>
+                <span class="badge text-bg-secondary">HaxeFlixel</span>
+              </small>
+            </p>
+          </div>
+          <a href="https://mastarcheeze.itch.io/push-box" target="_blank" class="stretched-link"></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
