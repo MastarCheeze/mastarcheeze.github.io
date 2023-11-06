@@ -1,3 +1,29 @@
+body {
+    font-family: "Quicksand" !important;
+}
+
+.quote {
+    font-family: "Gentium Book Plus";
+    font-style: italic;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.text-primary {
+    color: #DAA520 !important;
+}
+
+.btn-primary {
+    border-color: #DAA520 !important;
+    background-color: #DAA520 !important;
+}
+
+.bg-light {
+    background-color: #FFFDD0 !important;
+}
+
 .link-image {
     height: 25px;
 }
